@@ -6,3 +6,5 @@
 *.xml
 *.txt
 *.png
+RobotFramework/browser/*
+RobotFramework/.idea/
