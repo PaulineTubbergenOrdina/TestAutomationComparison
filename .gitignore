@@ -8,3 +8,5 @@
 RobotFramework/browser/*
 RobotFramework/.idea/
 *.pyc 
+node_modules/
+test-results/

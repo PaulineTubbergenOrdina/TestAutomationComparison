@@ -31,11 +31,17 @@ Pak uit en plaats in de bin-map van je venv. \
 <code>pip install pytest-playwright</code> \
 <code>playwright install</code>
 
+**JavaScript** \
+Normaliter commando's hieronder, nu naar ieder testframework zijn map navigeren en 
+<code>npm i</code> doen, omdat package.json al aanwezig.
+
 **JavaScript Cypress** \
 <code>npm install cypress</code>
 
 **JavaScript PlayWright** \
-TODO
+<code>npm i -D @playwright/test</code> \
+installeren van browsers: \
+<code>npx playwright install</code>
 
 **JavaScript TestCafe** \
 <code>npm install testcafe</code>

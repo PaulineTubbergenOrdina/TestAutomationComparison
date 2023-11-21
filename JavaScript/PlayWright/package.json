@@ -1,0 +1,17 @@
+{
+  "name": "example_playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "playwright:tests": "npx playwright test example_playwright.spec.js --ui --project chromium",
+    "playwright:report": "npx playwright test example_playwright.spec.js --project chromium"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.39.0",
+    "@types/node": "^20.9.0"
+  }
+}
