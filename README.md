@@ -19,8 +19,13 @@ Pak uit en plaats in de bin-map van je venv. \
 <code>pip install robotframework-browser</code> \
 <code>rfbrowser init</code>
 
-**Python Selenium met unittest** \
-TODO herschrijven naar pytest
+**Python Selenium met pytest** \
+<code>pip install pytest</code> \
+<code>pip install selenium</code>
+En download the arm-chromedriver die overeenkomt met de versie van 
+Chrome op je computer: 
+https://googlechromelabs.github.io/chrome-for-testing/#stable.
+Pak uit en plaats in de bin-map van je venv. \
 
 **Python PlayWright met pytest** \
 <code>pip install pytest-playwright</code> \
