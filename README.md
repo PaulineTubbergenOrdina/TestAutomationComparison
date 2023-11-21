@@ -47,6 +47,7 @@ installeren van browsers: \
 
 **JavaScript TestCafe** \
 <code>npm install testcafe</code>
+TODO nog overzetten
 
 **JavaScript Selenium** \
 TODO
