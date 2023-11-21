@@ -15,8 +15,7 @@ Check that I can find the Platypus page on the English Wikipedia
     Log    Check that the page is in English
     Check Zichtbaarheid En Inhoud Van Veld    ${WELKOMSTTEKST}    Welcome to Wikipedia
     Log    Search for the platypus
-    Type In Zoekveld    ${ZOEKTERM}
-    Klik Zoekknop
+    Type In Zoekveld En Klik Op Zoekknop    ${ZOEKTERM}
     Log    Check that the platypus page was found
     Check Zichtbaarheid En Inhoud Van Veld    ${TITELTEKST}    ${ZOEKTERM}
     
@@ -27,8 +26,7 @@ Check what a failed test looks like
     # inhoud tekst is expres fout
     Check Zichtbaarheid En Inhoud Van Veld    ${WELKOMSTTEKST}    Welcom to Wikipedia
     Log    Search for the platypus
-    Type In Zoekveld    ${ZOEKTERM}
-    Klik Zoekknop
+    Type In Zoekveld En Klik Op Zoekknop   ${ZOEKTERM}
     Log    Check that the platypus page was found
     Check Zichtbaarheid En Inhoud Van Veld    ${TITELTEKST}    ${ZOEKTERM}
 

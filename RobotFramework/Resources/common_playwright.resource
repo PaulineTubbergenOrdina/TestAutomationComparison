@@ -16,9 +16,7 @@ Check zichtbaarheid en inhoud van veld
     Get Element States    ${css_selector}    validate    visible
     Get Text    ${css_selector}    ==    ${tekst}
 
-Type in zoekveld
+Type in zoekveld en klik op zoekknop
     [Arguments]    ${tekst}
     Type Text    ${ZOEKVELD}    ${tekst}
-
-Klik zoekknop
     Click    ${ZOEKKNOP}

@@ -13,9 +13,7 @@ Check zichtbaarheid en inhoud van veld
     Element Should Be Visible   ${css_selector}
     Element Text Should Be   ${css_selector}    ${tekst}
     
-Type in zoekveld
+Type in zoekveld en klik op zoekknop
     [Arguments]    ${tekst}
     Input Text     ${ZOEKVELD}    ${tekst}
-    
-Klik zoekknop
     Click Button    ${ZOEKKNOP}
