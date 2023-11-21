@@ -1,5 +1,5 @@
 from playwright.sync_api import expect
-from ..resources.wikipedia import zoekveld, zoekknop
+from resources.wikipedia_variables import zoekveld, zoekknop
 
 
 def open_url_in_browser(page, url):

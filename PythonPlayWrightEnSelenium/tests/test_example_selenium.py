@@ -1,6 +1,7 @@
 from selenium import webdriver
-from ..resources.wikipedia import basic_url, english_url, welkomsttekst, titeltekst
-from ..resources.wikipedia_selenium import open_url_in_browser, close_browser, check_zichtbaarheid_en_inhoud_van_veld, type_in_zoekveld_en_klik_op_zoeken
+from resources.wikipedia_variables import basic_url, english_url, welkomsttekst, titeltekst
+from resources.wikipedia_selenium import open_url_in_browser, check_zichtbaarheid_en_inhoud_van_veld, \
+    type_in_zoekveld_en_klik_op_zoeken
 
 zoekterm = "Platypus"
 
@@ -8,7 +9,7 @@ zoekterm = "Platypus"
 def test_checks_that_i_can_visit_wikipedia():
     browser_chrome = webdriver.Chrome()
     open_url_in_browser(browser_chrome, basic_url)
-    close_browser(browser_chrome)
+    browser_chrome.close()
 
 
 def test_checks_that_i_can_find_the_platypus_page_on_the_english_wikipedia():
@@ -21,7 +22,7 @@ def test_checks_that_i_can_find_the_platypus_page_on_the_english_wikipedia():
     type_in_zoekveld_en_klik_op_zoeken(browser_chrome, zoekterm)
     print("check that the Platypus page was found")
     check_zichtbaarheid_en_inhoud_van_veld(browser_chrome, titeltekst, zoekterm)
-    close_browser(browser_chrome)
+    browser_chrome.close()
 
 
 def test_fails_on_purpose():
@@ -35,4 +36,4 @@ def test_fails_on_purpose():
     type_in_zoekveld_en_klik_op_zoeken(browser_chrome, zoekterm)
     print("check that the Platypus page was found")
     check_zichtbaarheid_en_inhoud_van_veld(browser_chrome, titeltekst, zoekterm)
-    close_browser(browser_chrome)
+    browser_chrome.close()
