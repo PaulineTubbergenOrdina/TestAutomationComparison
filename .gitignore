@@ -1,5 +1,5 @@
 .idea/
-/PythonPlayWrightEnSelenium/.pytest_cache/
+/PythonPlayWrightEnSelenium/tests/.pytest_cache/
 /pytest_cache
 .DS_Store
 *.html
@@ -7,3 +7,4 @@
 *.png
 RobotFramework/browser/*
 RobotFramework/.idea/
+*.pyc 
