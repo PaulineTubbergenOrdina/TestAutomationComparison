@@ -13,7 +13,7 @@ Npm versie 10.2.0. \
 En download the arm-chromedriver die overeenkomt met de versie van 
 Chrome op je computer: 
 https://googlechromelabs.github.io/chrome-for-testing/#stable.
-Pak uit en plaats in de bin-map van je venv.
+Pak uit en plaats in de bin-map van je venv. \
 
 **RobotFramework PlayWright** \
 <code>pip install robotframework-browser</code> \
@@ -37,3 +37,6 @@ TODO
 
 **JavaScript Selenium** \
 TODO
+
+**TODO**
+Manier vinden om RobotFramework rapportage-bestanden in nette map te stoppen in plaats van overal verspreid.
