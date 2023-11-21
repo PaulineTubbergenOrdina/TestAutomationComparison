@@ -6,7 +6,7 @@ Resource    ./common.resource
 *** Keywords ***
 Open url in browser
     [Arguments]    ${url}
-    Open browser    ${url}    ${BROWSER}   
+    Open browser    ${url}    ${BROWSER_SELENIUM}
     
 Check zichtbaarheid en inhoud van veld
     [Arguments]    ${css_selector}    ${tekst}

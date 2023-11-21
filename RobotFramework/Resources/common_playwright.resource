@@ -8,7 +8,7 @@ ${HEADLESS}                 False
 *** Keywords ***
 Open url in browser
     [Arguments]     ${url}
-    New Browser     ${BROWSER}     ${HEADLESS}
+    New Browser     ${BROWSER_PLAYWRIGHT}     ${HEADLESS}
     New Page        ${url}
 
 Check zichtbaarheid en inhoud van veld
