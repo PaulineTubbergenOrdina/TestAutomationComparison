@@ -36,7 +36,9 @@ Normaliter commando's hieronder, nu naar ieder testframework zijn map navigeren 
 <code>npm i</code> doen, omdat package.json al aanwezig.
 
 **JavaScript Cypress** \
-<code>npm install cypress</code>
+<code>npm install cypress</code> \
+noot: er zijn nogal wat extra files hier omdat Cypress die verwacht, moet je configuren als je die niet wilt. \
+tests heten e2e ipv tests omdat dat ook iets is wat Cypress verwacht, idem de 'cy' tussen 'spec' en 'js'
 
 **JavaScript PlayWright** \
 <code>npm i -D @playwright/test</code> \
