@@ -5,7 +5,7 @@ Python versie 3.11, in venv
 Pip versie 23.3.1, als nog niet up-to-date: \
 <code>pip install --upgrade pip</code> \
 Node versie 21.1.0. \
-Npm versie 10.2.0. \
+Npm versie 10.2.0.
 
 **RobotFramework Selenium** \
 <code>pip install robotframework</code> \
@@ -13,7 +13,7 @@ Npm versie 10.2.0. \
 En download the arm-chromedriver die overeenkomt met de versie van 
 Chrome op je computer: 
 https://googlechromelabs.github.io/chrome-for-testing/#stable.
-Pak uit en plaats in de bin-map van je venv. \
+Pak uit en plaats in de bin-map van je venv. 
 
 **RobotFramework PlayWright** \
 <code>pip install robotframework-browser</code> \
@@ -25,7 +25,7 @@ Pak uit en plaats in de bin-map van je venv. \
 En download the arm-chromedriver die overeenkomt met de versie van 
 Chrome op je computer: 
 https://googlechromelabs.github.io/chrome-for-testing/#stable.
-Pak uit en plaats in de bin-map van je venv. \
+Pak uit en plaats in de bin-map van je venv. 
 
 **Python PlayWright met pytest** \
 <code>pip install pytest-playwright</code> \
